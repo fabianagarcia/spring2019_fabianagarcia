@@ -1,0 +1,52 @@
+body{
+	margin:0;
+	padding:0;
+	background-color: #58595B;
+}
+#graphic{
+	width:570px;
+	height:338px;
+	background-color: #58595B;
+	margin: 0 auto;
+	background-image: url("images/beer.png");
+
+}
+#header{
+	width: 175px;
+	height:77px;
+	background-color: #58595B;
+	font-size: 60px; color:#ffffff; font-family:Edwardian Script ITC;
+	margin: 0 auto;
+}
+#subheader{
+	width:165px;
+	height:80px;
+	background-color: #58595B;
+	text-align:center;
+	font-size: 18px; color:#ffffff; font-family:A little sunshine; width: 340px;
+	margin: 0 auto;
+}
+#body{
+	width:175px;
+	height:10px;
+	background-color: #58595B;
+	font-size: 13px; color:#ffffff; font-family:Century Gothic; width: 300px;
+	border: 3px white;
+	margin: 0 auto;
+}
+#body2{
+	width:165px;
+	height:34px;
+	background-color: #58595B;
+	text-align:center;
+	font-size: 34px; color: #FFDE17; font-family:Edwardian Script ITC; width: 300px; 
+	margin: 0 auto;
+}
+#body3{
+	width:570px;
+	height:20px;
+	background-color: #58595B;
+	text-align: center;
+	font-size: 11px; color:#ffffff; font-family:Century Gothic; width: 450px;
+	margin: 0 auto;
+}

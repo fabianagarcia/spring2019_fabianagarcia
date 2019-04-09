@@ -1,0 +1,230 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #e5c8f1;
+}
+
+.content_opacity:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: "";
+    background: #000;
+    opacity: .1;
+    z-index: 0;
+}
+
+.b-right {
+	border-right: 1px solid;
+}
+
+.bg-primary {
+	background-color: #e5c8f1 !important;
+}
+
+.navbar {
+	background-color: #e5c8f1;
+	padding-top: 0px !important
+}
+
+.active {
+	background: #4d3c21;
+	color: #fff !important;
+}
+
+.content_nav .navbar-brand {
+	position: absolute;
+	top: 0;
+	padding: 0;
+	height: 150px;
+}
+
+.content_nav ul li {
+	margin-top: 23px;
+	height: 18px;
+}
+
+.content_nav ul li a {
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 0 15px !important;
+}
+
+.content_nav ul li a.content_icon img{
+	width: 20px;
+}
+
+header.content_header_section {
+	background-image: url('img/banner.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+header.content_header_section .content {
+	height: 100%;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	color: #fff;
+	z-index: 2
+}
+
+header.content_header_section .content .content_text {
+	z-index: 3;
+	text-align: center;
+}
+
+header.content_header_section .content .content_text h1 {
+	text-transform: uppercase;
+	font-size: 46px;
+	color: #fff;
+	-webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #fff;
+}
+
+header.content_header_section .content .content_text .subtitle {
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+header.content_header_section .content .content_text a {
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.page_section {
+	padding: 3rem 0;
+}
+
+.page_about .content_text {
+	padding: 100px 50px;
+	height: 650px;
+	color: #4d3c21 !important;
+}
+
+.page_about .contet_image {
+	height: 650px;
+}
+
+.page_about .content_text h2 {
+	text-transform: uppercase;
+	font-size: 36px;
+	color: black;
+	-webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+}
+
+.page_about .content_text p {
+	font-size: 20px;
+	line-height: 22px;
+}
+
+.page_about .contet_image img{
+	width: 100%;
+	height: 100%;
+}
+
+.page_about .content_paletas {
+	height: 480px;
+}
+
+.page_about .content_paletas img {
+	width: 100%;
+	height: 100%;
+}
+
+.page_about .content_paletas .text_details {
+	margin: 10px 0;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #4d3c21;
+}
+
+.page_arrows {
+	padding-top: 80px;
+}
+
+.page_arrows .content_arrow_left {
+	text-align: right;
+}
+
+.page_arrows .content_arrow_left img {
+	height: 30px;
+	width: 100px;
+}
+
+.page_arrows .content_arrow_right {
+	text-align: left;
+}
+
+.page_arrows .content_arrow_right img {
+	height: 30px;
+	width: 100px;
+	-ms-transform: rotate(180deg); /* IE 9 */
+  	-webkit-transform: rotate(180deg); /* Safari 3-8 */
+  	transform: rotate(180deg);
+}
+
+.page_arrows .content_points {
+	display: inline-block;
+	width: 100%;
+	padding-top: 20px;
+	letter-spacing: 15px;
+}
+
+.page_arrows .content_points span{
+	height: 10px;
+	width: 10px;
+	display: inline-block;
+	margin-top: 10px;
+	background-color: #000;
+	border-radius: 50%;
+}
+
+.page_locations {
+	background-image: url('img/banner_locations.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 800px;
+}
+
+.page_contacts .content_info h4 {
+	margin: 0;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 16px;
+	color: #4d3c21;
+}
+
+.page_contacts .content_info span {
+	font-size: 14px;
+	color: #4d3c21;
+}
+
+.page_contacts .custom_btn {
+	padding: 10px 45px;
+	background-color: #4d3c21;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 0;
+}
+
+.page_contacts .content_icons span {
+	letter-spacing: 5px;
+}
+
+.page_contacts .content_icons span i{
+	font-size: 24px;
+	color: #fff;
+}
